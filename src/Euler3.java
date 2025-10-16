@@ -2,8 +2,9 @@ public class Euler3 {
     public static Boolean isPrime(int num){
         if (num==1) return false;
         if(num==2) return true;
-        if(num==3) return false;
-        for(int i=2; i<num/2; i++){
+        if(num==3) return true;
+        long limit = (long) Math.sqrt(num);
+        for(int i=2; i<=limit; i++){
             if(num % i == 0) return false;
         }
 

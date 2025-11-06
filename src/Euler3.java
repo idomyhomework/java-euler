@@ -7,7 +7,6 @@ public class Euler3 {
         for(int i=2; i<=limit; i++){
             if(num % i == 0) return false;
         }
-
         return true;
     }
     public static void main(String[] args) {

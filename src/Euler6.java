@@ -1,6 +1,6 @@
 import java.math.BigDecimal;
 
-public class Euler5 {
+public class Euler6 {
 
     public static BigDecimal sumOfSquares(double min, double max) {
         double sum = 0;

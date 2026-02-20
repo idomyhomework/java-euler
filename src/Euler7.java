@@ -18,9 +18,9 @@ public class Euler7 {
 
         int result = 13;
         int count = 6;
-        while (count != 10001){
+        while (count != 10001) {
             result++;
-            if(isPrime(result)){
+            if (isPrime(result)) {
                 count++;
             }
         }
